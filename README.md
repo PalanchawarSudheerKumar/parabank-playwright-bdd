@@ -52,7 +52,7 @@ parabank-playwright-bdd/
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/PalanchawarSudheerKumar/parabank-playwright-bdd.git
-cd parabank-playwright-bdd-fixed
+cd parabank-playwright-bdd
 ```
 
 ### 2️⃣ Install dependencies
@@ -75,11 +75,6 @@ This downloads Chromium, Firefox, and WebKit required for tests.
 ### ▶️ Run all scenarios
 ```bash
 npx cucumber-js
-```
-
-### 🧪 Dry run (syntax check only)
-```bash
-npx cucumber-js --dry-run
 ```
 
 ### 🕶️ Run in headless mode
