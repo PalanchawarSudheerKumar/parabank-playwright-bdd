@@ -82,5 +82,9 @@ npx cucumber-js
 set PLAYWRRIGHT_HEADLESS=true && npx cucumber-js
 ```
 *(Use `export` instead of `set` on macOS/Linux.)*
-
+```
+You can also user below command
+```bash
+npm run test:headless
+```
 ---
