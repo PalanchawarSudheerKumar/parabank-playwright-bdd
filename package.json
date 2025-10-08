@@ -1,0 +1,13 @@
+{
+  "name": "parabank-playwright-bdd",
+  "version": "1.0.0",
+  "description": "Playwright + Cucumber (BDD) + POM sample project for Parabank signup/login",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "test:headless": "setx PLAYWRIGHT_HEADLESS 1 && npx cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "playwright": "^1.35.0"
+  }
+}
